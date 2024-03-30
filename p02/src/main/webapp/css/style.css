@@ -1,0 +1,26 @@
+.error {
+	color : red;
+	border : 1px solid gray;
+	border-radius : 10px;
+	box-shadow : 2px 2px 5px gray;
+	margin : 30px;
+	padding : 10px;
+	
+	font-family: Consolas;
+	font-size: 18px;
+}
+
+.data-table {
+	width : 80%;
+	border : 1px solid gray;
+	box-shadow: 2px 2px 5px gray;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.data-table tr:nth-child(odd) {
+	background: buttonface;
+}
